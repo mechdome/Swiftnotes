@@ -1,6 +1,6 @@
 # Swiftnotes [![Build Status](https://travis-ci.org/adrianchifor/Swiftnotes.svg)](https://travis-ci.org/adrianchifor/Swiftnotes) [![Maintainer](https://img.shields.io/badge/maintainer-adrianchifor-brightgreen.svg)](https://img.shields.io/badge/maintainer-adrianchifor-brightgreen.svg)
 
-[Swiftnotes](https://play.google.com/store/apps/details?id=com.moonpi.swiftnotes) is a note taking app that takes simplicity and speed to a whole new level. 
+Swiftnotes is a note taking app that takes simplicity and speed to a whole new level. 
 
 It offers you a quick and easy way to stay organised, capture your thoughts, reminders or anything that's on your mind, any time, anywhere. No extra unnecessary features, just notes. 
 
