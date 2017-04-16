@@ -2,9 +2,9 @@
 
 [Swiftnotes](https://play.google.com/store/apps/details?id=com.moonpi.swiftnotes) is a note taking app that takes simplicity and speed to a whole new level. 
 
-It offers you a quick and easy way to stay organised, capture your thoughts, reminders or anything that's on your mind, any time, anywhere. No extra unnecessary features, just notes. For screenshots and more information visit the [Google PlayStore.](https://play.google.com/store/apps/details?id=com.moonpi.swiftnotes)
+It offers you a quick and easy way to stay organised, capture your thoughts, reminders or anything that's on your mind, any time, anywhere. No extra unnecessary features, just notes. 
 
-This repo contains the official source code of Swiftnotes for Android.
+This repo contains the official source code of Swiftnotes for iOS.
 
 Current app version is 3.1.3.
 
@@ -20,6 +20,7 @@ Steps on how to build Swiftnotes:
 - Good to go!
 
 ### License
+Copyright &copy; 2017 Mechdome
 
 Copyright &copy; 2015 MoonPi - Adrian Chifor
 
@@ -28,9 +29,3 @@ Licensed under the Apache License, Version 2.0 (the "License"); you may not use 
 http://www.apache.org/licenses/LICENSE-2.0
 
 Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License.
-
-### Donate
-
-To support development, you can donate with PayPal or Card using this [link](http://goo.gl/TQRlTa). For Bitcoin donations, our address is: 1PEGbaQAbCxaMs3TYu7e2NoVwAC7158Fvv. 
-
-Donations help us implement amazing new features and deliver updates at a faster rate. Any amount would be most appreciated. Thank you!
