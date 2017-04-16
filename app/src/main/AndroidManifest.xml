@@ -31,6 +31,6 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.moonpi.swiftnotes.MainActivity" />
         </activity>
-
+        <meta-data android:name="md_remove_ads" android:value="com.moonpi.swiftnotes.MechDomeAd" />
     </application>
 </manifest>

@@ -39,6 +39,7 @@
     <string name="action_font_size">Note font size</string>
     <string name="action_hide_body">Hide note body in list</string>
     <string name="action_show_body">Show note body in list</string>
+    <string name="action_about_mechdome">About Mechdome</string>
     <!-- -->
     <string name="dialog_delete">Selected notes will be deleted!</string>
     <string name="dialog_note_colour">Change note colour</string>

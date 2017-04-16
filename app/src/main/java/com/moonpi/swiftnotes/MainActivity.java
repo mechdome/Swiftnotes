@@ -25,6 +25,8 @@ import android.widget.ListView;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.mechdome.aboutmechdome.AboutMechDomeActivity;
+
 import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
@@ -467,37 +469,41 @@ public class MainActivity extends ActionBarActivity implements AdapterView.OnIte
 
         // 'Rate app' pressed -> create new dialog to ask the user if he wants to go to the PlayStore
         // If yes -> start PlayStore and go to app link < If Exception thrown, open in Browser >
-        if (id == R.id.action_rate_app) {
-            final String appPackageName = getPackageName();
+//        if (id == R.id.action_rate_app) {
+//            final String appPackageName = getPackageName();
+//
+//            new AlertDialog.Builder(this)
+//                    .setTitle(R.string.dialog_rate_title)
+//                    .setMessage(R.string.dialog_rate_message)
+//                    .setPositiveButton(R.string.yes_button, new DialogInterface.OnClickListener() {
+//                        @Override
+//                        public void onClick(DialogInterface dialog, int which) {
+//                            try {
+//                                startActivity(new Intent(Intent.ACTION_VIEW,
+//                                        Uri.parse("market://details?id=" + appPackageName)));
+//
+//                            } catch (android.content.ActivityNotFoundException anfe) {
+//                                startActivity(new Intent(Intent.ACTION_VIEW,
+//                                        Uri.parse("http://play.google.com/store/apps/details?id="
+//                                                + appPackageName)));
+//                            }
+//                        }
+//                    })
+//                    .setNegativeButton(R.string.no_button, new DialogInterface.OnClickListener() {
+//                        @Override
+//                        public void onClick(DialogInterface dialog, int which) {
+//                            dialog.dismiss();
+//                        }
+//                    })
+//                    .show();
+//
+//            return true;
+//        }
 
-            new AlertDialog.Builder(this)
-                    .setTitle(R.string.dialog_rate_title)
-                    .setMessage(R.string.dialog_rate_message)
-                    .setPositiveButton(R.string.yes_button, new DialogInterface.OnClickListener() {
-                        @Override
-                        public void onClick(DialogInterface dialog, int which) {
-                            try {
-                                startActivity(new Intent(Intent.ACTION_VIEW,
-                                        Uri.parse("market://details?id=" + appPackageName)));
-
-                            } catch (android.content.ActivityNotFoundException anfe) {
-                                startActivity(new Intent(Intent.ACTION_VIEW,
-                                        Uri.parse("http://play.google.com/store/apps/details?id="
-                                                + appPackageName)));
-                            }
-                        }
-                    })
-                    .setNegativeButton(R.string.no_button, new DialogInterface.OnClickListener() {
-                        @Override
-                        public void onClick(DialogInterface dialog, int which) {
-                            dialog.dismiss();
-                        }
-                    })
-                    .show();
-
+        if (id ==  R.id.action_about_mechdome) {
+            startActivity(new Intent(MainActivity.this, AboutMechDomeActivity.class));
             return true;
         }
-
         return false;
     }
 

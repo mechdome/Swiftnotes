@@ -23,8 +23,8 @@
         android:orderInCategory="102"
         app:showAsAction="never" />
 
-    <item android:id="@+id/action_rate_app"
-        android:title="@string/action_rate_app"
+    <item android:id="@+id/action_about_mechdome"
+        android:title="@string/action_about_mechdome"
         android:orderInCategory="103"
         app:showAsAction="never" />
 
